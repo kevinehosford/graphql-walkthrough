@@ -14,15 +14,16 @@ $ npm start
 
 ## TODO
 
-[ ] data backed component
-[ ] fragments
-[ ] mutations
-[ ] merging APIs
+- [ ] data backed component
+- [ ] fragments
+- [ ] mutations
+- [ ] merging APIs
+
 
 ### graphql
 
-[ ] defined type
+- [ ] defined type
 
 ### client (apollo) 
 
-[ ] request batching/caching
+- [ ] request batching/caching
