@@ -24,6 +24,7 @@ $ npm start
 
 - [ ] defined type
 
+
 ### client (apollo) 
 
 - [ ] request batching/caching
