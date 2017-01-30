@@ -1,6 +1,6 @@
 # GraphQL
 
-* A "data query language"
+* A "data query language and execution engine"
 * Facebook 2012, powers mobile apps, open sourced in 2015
 
 
@@ -110,7 +110,24 @@ variables {
 }
 ```
 
+* name queries to make multiple at once
+* define fragments to reduce field specification duplication
 
+```
+query {
+  articleOne: article(id: 'article-1') {
+    ... articleFields
+  }
+  articleTwo: article(id: 'article-2') {
+    ... articleFields
+  }
+}
+
+fragment articleFields on ArticleType {
+  title,
+  body
+}
+```
 
 ## More features
 * directives on fields, `@include()`, `@skip()`
